@@ -1,0 +1,6089 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KML Export 7/14/2017 2:14:06 PM</name>
+    <Style id="style_emergency">
+      <IconStyle>
+        <colorMode>normal</colorMode>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;td&gt; $[Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt; $[Time] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time UTC&lt;/td&gt;&lt;td&gt; $[Time UTC] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt; $[Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Map Display Name&lt;/td&gt;&lt;td&gt; $[Map Display Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Device Type&lt;/td&gt;&lt;td&gt; $[Device Type] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IMEI&lt;/td&gt;&lt;td&gt; $[IMEI] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Incident Id&lt;/td&gt;&lt;td&gt; $[Incident Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Latitude&lt;/td&gt;&lt;td&gt; $[Latitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Longitude&lt;/td&gt;&lt;td&gt; $[Longitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Elevation&lt;/td&gt;&lt;td&gt; $[Elevation] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Velocity&lt;/td&gt;&lt;td&gt; $[Velocity] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Course&lt;/td&gt;&lt;td&gt; $[Course] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Valid GPS Fix&lt;/td&gt;&lt;td&gt; $[Valid GPS Fix] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;In Emergency&lt;/td&gt;&lt;td&gt; $[In Emergency] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;&lt;td&gt; $[Text] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Event&lt;/td&gt;&lt;td&gt; $[Event] &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="style_2861556">
+      <IconStyle>
+        <color>ffff5500</color>
+        <colorMode>normal</colorMode>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;td&gt; $[Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt; $[Time] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time UTC&lt;/td&gt;&lt;td&gt; $[Time UTC] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt; $[Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Map Display Name&lt;/td&gt;&lt;td&gt; $[Map Display Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Device Type&lt;/td&gt;&lt;td&gt; $[Device Type] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IMEI&lt;/td&gt;&lt;td&gt; $[IMEI] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Incident Id&lt;/td&gt;&lt;td&gt; $[Incident Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Latitude&lt;/td&gt;&lt;td&gt; $[Latitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Longitude&lt;/td&gt;&lt;td&gt; $[Longitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Elevation&lt;/td&gt;&lt;td&gt; $[Elevation] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Velocity&lt;/td&gt;&lt;td&gt; $[Velocity] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Course&lt;/td&gt;&lt;td&gt; $[Course] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Valid GPS Fix&lt;/td&gt;&lt;td&gt; $[Valid GPS Fix] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;In Emergency&lt;/td&gt;&lt;td&gt; $[In Emergency] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;&lt;td&gt; $[Text] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Event&lt;/td&gt;&lt;td&gt; $[Event] &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="waypointstyle_2861556">
+      <IconStyle>
+        <color>ffff5500</color>
+        <colorMode>normal</colorMode>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt; $[Time] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time UTC&lt;/td&gt;&lt;td&gt; $[Time UTC] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Latitude&lt;/td&gt;&lt;td&gt; $[Latitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Longitude&lt;/td&gt;&lt;td&gt; $[Longitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;&lt;td&gt; $[Text] &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="linestyle_2861556">
+      <LineStyle>
+        <color>ffff5500</color>
+        <colorMode>normal</colorMode>
+        <width>1</width>
+        <labelVisibility xmlns="http://www.google.com/kml/ext/2.2">false</labelVisibility>
+      </LineStyle>
+    </Style>
+    <Style id="style_2862684">
+      <IconStyle>
+        <color>ff36a33c</color>
+        <colorMode>normal</colorMode>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Id&lt;/td&gt;&lt;td&gt; $[Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt; $[Time] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time UTC&lt;/td&gt;&lt;td&gt; $[Time UTC] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt; $[Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Map Display Name&lt;/td&gt;&lt;td&gt; $[Map Display Name] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Device Type&lt;/td&gt;&lt;td&gt; $[Device Type] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IMEI&lt;/td&gt;&lt;td&gt; $[IMEI] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Incident Id&lt;/td&gt;&lt;td&gt; $[Incident Id] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Latitude&lt;/td&gt;&lt;td&gt; $[Latitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Longitude&lt;/td&gt;&lt;td&gt; $[Longitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Elevation&lt;/td&gt;&lt;td&gt; $[Elevation] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Velocity&lt;/td&gt;&lt;td&gt; $[Velocity] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Course&lt;/td&gt;&lt;td&gt; $[Course] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Valid GPS Fix&lt;/td&gt;&lt;td&gt; $[Valid GPS Fix] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;In Emergency&lt;/td&gt;&lt;td&gt; $[In Emergency] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;&lt;td&gt; $[Text] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Event&lt;/td&gt;&lt;td&gt; $[Event] &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="waypointstyle_2862684">
+      <IconStyle>
+        <color>ff36a33c</color>
+        <colorMode>normal</colorMode>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Time&lt;/td&gt;&lt;td&gt; $[Time] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Time UTC&lt;/td&gt;&lt;td&gt; $[Time UTC] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Latitude&lt;/td&gt;&lt;td&gt; $[Latitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Longitude&lt;/td&gt;&lt;td&gt; $[Longitude] &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;&lt;td&gt; $[Text] &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="linestyle_2862684">
+      <LineStyle>
+        <color>ff36a33c</color>
+        <colorMode>normal</colorMode>
+        <width>1</width>
+        <labelVisibility xmlns="http://www.google.com/kml/ext/2.2">false</labelVisibility>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Jeff Jensen</name>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T12:42:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84499882</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 12:42:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 6:42:45 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260915</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.363756</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1287.55 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking turned on from device.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.363756,41.260915,1287.55</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T12:52:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84500384</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 12:52:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 6:52:45 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260903</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.363715</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.363715,41.260903,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T13:37:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84502844</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 1:37:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 7:37:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260121</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.36307</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1282.90 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>21.8930 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>180 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.36307,41.260121,1282.9</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T13:47:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84503565</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 1:47:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 7:47:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.244906</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.360838</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1376.42 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>1.0000 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>292.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.360838,41.244906,1376.42</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T13:57:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84504168</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 1:57:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 7:57:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.240305</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.352685</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1388.20 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.352685,41.240305,1388.2</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T14:07:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84504768</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 2:07:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:07:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.235605</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.35277</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1423.65 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.35277,41.235605,1423.65</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T14:17:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84505442</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 2:17:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:17:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.234886</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.351848</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1423.65 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>11.1280 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>112.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.351848,41.234886,1423.65</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T14:27:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84506217</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 2:27:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:27:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.236291</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.344788</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1407.08 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>10.0960 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>22.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.344788,41.236291,1407.08</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T14:37:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84506785</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 2:37:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:37:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.231775</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.326485</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1315.49 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>13.2120 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>157.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.326485,41.231775,1315.49</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T14:47:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84507482</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 2:47:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:47:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.221615</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.322945</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1296.85 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>23.0270 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>180 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.322945,41.221615,1296.85</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T14:57:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84508463</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 2:57:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:57:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.20682</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.333566</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1378.77 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>13.2120 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>225 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.333566,41.20682,1378.77</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T15:07:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84508775</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 3:07:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 9:07:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.205393</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.319746</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1296.85 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>31.3520 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>202.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.319746,41.205393,1296.85</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T15:17:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84509487</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 3:17:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 9:17:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.187743</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.3273</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1310.83 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>21.8930 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>247.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.3273,41.187743,1310.83</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T15:27:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84510286</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 3:27:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 9:27:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.187776</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.327193</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1313.16 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>24.1730 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>67.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.327193,41.187776,1313.16</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T15:37:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84511072</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 3:37:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 9:37:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.171146</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.339746</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1296.85 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.339746,41.171146,1296.85</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T15:47:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84511802</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 3:47:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 9:47:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.167348</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.349616</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1327.17 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.349616,41.167348,1327.17</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T15:57:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84512633</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 3:57:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 9:57:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.17047</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.353456</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1350.58 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.353456,41.17047,1350.58</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T16:07:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84513419</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 4:07:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 10:07:15 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.17047</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.353456</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1348.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.353456,41.17047,1348.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T17:35:30Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84520075</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 5:35:30 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 11:35:30 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.169751</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.352728</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1345.89 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>13.2120 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>135 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.352728,41.169751,1345.89</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T17:45:30Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84520962</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 5:45:30 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 11:45:30 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.15192</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.36013</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1299.18 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>21.8930 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>225 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.36013,41.15192,1299.18</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T17:55:30Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84521802</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 5:55:30 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 11:55:30 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.14293</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.365473</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1313.16 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.365473,41.14293,1313.16</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T18:05:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84522579</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 6:05:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 12:05:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.142918</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.365473</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1315.49 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.365473,41.142918,1315.49</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T18:26:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84524109</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 6:26:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 12:26:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.142125</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.366096</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1317.83 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>12.1670 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>202.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.366096,41.142125,1317.83</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T18:36:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84524862</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 6:36:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 12:36:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.137673</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.365001</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1299.18 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>5.0120 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>180 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.365001,41.137673,1299.18</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T18:46:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84525697</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 6:46:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 12:46:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.130045</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.366803</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1289.87 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>24.1730 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>180 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.366803,41.130045,1289.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T18:56:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84526539</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 6:56:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 12:56:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.117728</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.3688</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1289.87 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.3688,41.117728,1289.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T19:06:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84527314</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 7:06:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 1:06:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.117738</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.368821</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1289.87 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.368821,41.117738,1289.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T19:33:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84529737</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 7:33:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 1:33:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.11864</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.368563</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1289.87 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>17.4740 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.368563,41.11864,1289.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T19:43:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84530765</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 7:43:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 1:43:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.143895</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.364271</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1308.50 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.364271,41.143895,1308.5</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T19:53:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84531233</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 7:53:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 1:53:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.142393</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.366075</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1313.16 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.366075,41.142393,1313.16</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T20:03:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84532054</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 8:03:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 2:03:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.144463</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.369721</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1348.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>4.0060 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>270 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.369721,41.144463,1348.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T20:13:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84532924</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 8:13:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 2:13:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.146513</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.37382</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1399.99 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.37382,41.146513,1399.99</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T20:23:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84533781</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 8:23:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 2:23:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.148541</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.376566</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1447.39 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>3.0030 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>315 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.376566,41.148541,1447.39</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T20:33:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84534738</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 8:33:45 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 2:33:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.149453</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.37807</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1473.60 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.37807,41.149453,1473.6</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T20:44:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84535409</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 8:44:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 2:44:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.149538</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.378091</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1475.98 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.378091,41.149538,1475.98</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T21:13:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84537748</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 9:13:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 3:13:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.148991</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.377125</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1454.53 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>3.0030 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>112.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.377125,41.148991,1454.53</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T21:23:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84538563</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 9:23:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 3:23:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.148551</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.37646</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1447.39 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>4.0060 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>112.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.37646,41.148551,1447.39</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T21:33:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84539403</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 9:33:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 3:33:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.144936</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.37071</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1359.96 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>5.0120 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>135 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.37071,41.144936,1359.96</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T21:43:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84540201</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 9:43:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 3:43:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.142383</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.366096</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1315.49 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.366096,41.142383,1315.49</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T21:53:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84541009</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 9:53:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 3:53:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.140365</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.365601</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1313.16 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.365601,41.140365,1313.16</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T22:03:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84541869</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 10:03:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 4:03:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.117791</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.368821</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1294.53 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.368821,41.117791,1294.53</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T22:13:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84542767</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 10:13:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 4:13:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.105508</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.370666</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1315.49 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.370666,41.105508,1315.49</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T22:23:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84543660</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 10:23:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 4:23:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.113135</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.386308</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1478.37 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>13.2120 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>315 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.386308,41.113135,1478.37</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T22:33:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84544461</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 10:33:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 4:33:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.111536</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.390128</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1485.54 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>4.0060 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>180 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.390128,41.111536,1485.54</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T22:43:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84545266</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 10:43:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 4:43:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.10892</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.398325</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1369.36 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>6.0210 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>247.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.398325,41.10892,1369.36</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T22:53:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84546041</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 10:53:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 4:53:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.105765</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.414075</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1299.18 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>11.1280 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.414075,41.105765,1299.18</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T23:03:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84546896</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 11:03:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 5:03:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.125033</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.416478</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1287.55 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.416478,41.125033,1287.55</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T23:13:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84547716</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 11:13:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 5:13:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.126193</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.416521</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1289.87 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.416521,41.126193,1289.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T23:23:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84548435</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 11:23:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 5:23:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.136235</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.415813</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1294.53 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>16.3950 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.415813,41.136235,1294.53</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T23:33:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84549180</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 11:33:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 5:33:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.1494</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.411135</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1289.87 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.411135,41.1494,1289.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T23:43:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84549954</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 11:43:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 5:43:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.149881</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.410963</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1292.20 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>19.6610 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>22.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.410963,41.149881,1292.2</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-10-31T23:53:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84550679</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>10/31/2016 11:53:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 5:53:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.169966</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.410556</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1294.53 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.410556,41.169966,1294.53</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T00:03:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84551369</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 12:03:15 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 6:03:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.194621</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.40854</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1294.53 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.40854,41.194621,1294.53</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T00:13:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84552063</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 12:13:15 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 6:13:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.194621</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.408496</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1292.20 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.408496,41.194621,1292.2</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T02:10:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84559744</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 2:10:45 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:10:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.195533</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.408196</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1292.20 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>20.7710 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>22.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.408196,41.195533,1292.2</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T02:20:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84560356</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 2:20:45 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:20:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.221421</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.401008</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.401008,41.221421,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T02:30:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84560966</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 2:30:45 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:30:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.24273</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.398455</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1282.90 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>26.5070 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.398455,41.24273,1282.9</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T02:40:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84561568</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 2:40:45 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:40:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260915</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.363628</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.363628,41.260915,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T02:50:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84562190</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 2:50:45 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 8:50:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260936</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.363715</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.363715,41.260936,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T06:50:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84573940</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 6:50:45 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 12:50:45 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260915</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.363693</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1282.90 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.363693,41.260915,1282.9</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T10:50:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84584372</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 10:50:45 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 4:50:45 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260925</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.36365</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1287.56 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.36365,41.260925,1287.56</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T14:51:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84598266</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 2:51:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 8:51:00 AM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260893</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.363693</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.363693,41.260893,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T18:51:00Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84617733</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 6:51:00 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 12:51:00 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.260915</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.363693</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1287.55 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.363693,41.260915,1287.55</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T21:06:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84629083</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 9:06:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 3:06:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.26172</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.363113</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1287.55 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>15.3250 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>45 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking interval received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.363113,41.26172,1287.55</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T21:16:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84629916</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 9:16:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 3:16:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.266086</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.338008</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1287.55 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>18.5620 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>22.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.338008,41.266086,1287.55</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T21:26:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84630861</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 9:26:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 3:26:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.282533</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.347878</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>7.0330 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>22.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.347878,41.282533,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T21:36:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84631611</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 9:36:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 3:36:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.284625</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.347556</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1282.90 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.347556,41.284625,1282.9</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T21:46:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84632547</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 9:46:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 3:46:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.283166</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.331226</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1282.90 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>14.2650 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.331226,41.283166,1282.9</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T21:56:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84633322</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 9:56:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 3:56:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.279915</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.301165</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>18.5620 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.301165,41.279915,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T22:06:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84634200</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 10:06:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 4:06:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.275248</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.258378</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1282.90 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>21.8930 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.258378,41.275248,1282.9</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T22:16:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84635076</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 10:16:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 4:16:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.271021</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.219218</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>27.6950 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.219218,41.271021,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T22:26:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84635979</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 10:26:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 4:26:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.266505</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.177676</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1282.90 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>23.0270 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.177676,41.266505,1282.9</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T22:36:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84636803</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 10:36:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 4:36:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.261493</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.141133</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>23.0270 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.141133,41.261493,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T22:46:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84637598</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 10:46:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 4:46:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.255636</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.100106</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1289.87 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>27.6950 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.100106,41.255636,1289.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T22:56:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84638307</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 10:56:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 4:56:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.249166</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.054573</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1280.58 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>27.6950 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.054573,41.249166,1280.58</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T23:06:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84639109</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 11:06:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 5:06:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.241473</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.000521</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1285.23 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>32.6040 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.000521,41.241473,1285.23</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T23:16:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84639905</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 11:16:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 5:16:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.233373</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.943636</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1280.58 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>24.1730 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.943636,41.233373,1280.58</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T23:26:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84640662</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 11:26:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 5:26:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.227891</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.905206</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1280.58 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>14.2650 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.905206,41.227891,1280.58</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T23:36:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84641446</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 11:36:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 5:36:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.219598</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.884886</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1282.90 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>35.1600 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>225 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.884886,41.219598,1282.9</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T23:46:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84642197</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 11:46:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 5:46:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.159763</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.897481</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1402.36 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>55.3860 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>202.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.897481,41.159763,1402.36</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-01T23:56:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84642944</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 11:56:15 PM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 5:56:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.074296</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.914025</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1367.01 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>62.0540 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>180 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.914025,41.074296,1367.01</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-02T00:06:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84643602</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/2/2016 12:06:15 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 6:06:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.02664</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.920741</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1359.96 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.920741,41.02664,1359.96</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-02T00:16:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84644362</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/2/2016 12:16:15 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 6:16:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.023581</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.921235</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1357.62 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>55.3860 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>180 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.921235,41.023581,1357.62</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-02T00:26:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84645066</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/2/2016 12:26:15 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 6:26:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>40.894815</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.913596</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1324.83 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>89.2790 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>180 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.913596,40.894815,1324.83</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-02T00:36:15Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84645709</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/2/2016 12:36:15 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 6:36:15 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>40.822663</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.89583</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1409.45 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>80.8300 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.89583,40.822663,1409.45</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name />
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-02T00:46:30Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84646397</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/2/2016 12:46:30 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 6:46:30 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>40.752315</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.719661</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1275.94 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>105.5150 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>90 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.719661,40.752315,1275.94</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jeff Jensen</name>
+        <visibility>true</visibility>
+        <description />
+        <TimeStamp>
+          <when>2016-11-02T00:56:30Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2861556</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84647094</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/2/2016 12:56:30 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>11/1/2016 6:56:30 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 2 (2861556)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 2</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060381700</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>40.708711</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-112.528538</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1280.58 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>103.0770 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>112.5 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value />
+          </Data>
+          <Data name="Event">
+            <value>Tracking message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-112.528538,40.708711,1280.58</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jeff Jensen</name>
+        <visibility>true</visibility>
+        <description>Jeff Jensen's track log</description>
+        <styleUrl>#linestyle_2861556</styleUrl>
+        <LineString>
+          <tessellate>true</tessellate>
+          <coordinates>-113.363756,41.260915,1287.55
+-113.363715,41.260903,1285.23
+-113.36307,41.260121,1282.9
+-113.360838,41.244906,1376.42
+-113.352685,41.240305,1388.2
+-113.35277,41.235605,1423.65
+-113.351848,41.234886,1423.65
+-113.344788,41.236291,1407.08
+-113.326485,41.231775,1315.49
+-113.322945,41.221615,1296.85
+-113.333566,41.20682,1378.77
+-113.319746,41.205393,1296.85
+-113.3273,41.187743,1310.83
+-113.327193,41.187776,1313.16
+-113.339746,41.171146,1296.85
+-113.349616,41.167348,1327.17
+-113.353456,41.17047,1350.58
+-113.353456,41.17047,1348.23
+-113.352728,41.169751,1345.89
+-113.36013,41.15192,1299.18
+-113.365473,41.14293,1313.16
+-113.365473,41.142918,1315.49
+-113.366096,41.142125,1317.83
+-113.365001,41.137673,1299.18
+-113.366803,41.130045,1289.87
+-113.3688,41.117728,1289.87
+-113.368821,41.117738,1289.87
+-113.368563,41.11864,1289.87
+-113.364271,41.143895,1308.5
+-113.366075,41.142393,1313.16
+-113.369721,41.144463,1348.23
+-113.37382,41.146513,1399.99
+-113.376566,41.148541,1447.39
+-113.37807,41.149453,1473.6
+-113.378091,41.149538,1475.98
+-113.377125,41.148991,1454.53
+-113.37646,41.148551,1447.39
+-113.37071,41.144936,1359.96
+-113.366096,41.142383,1315.49
+-113.365601,41.140365,1313.16
+-113.368821,41.117791,1294.53
+-113.370666,41.105508,1315.49
+-113.386308,41.113135,1478.37
+-113.390128,41.111536,1485.54
+-113.398325,41.10892,1369.36
+-113.414075,41.105765,1299.18
+-113.416478,41.125033,1287.55
+-113.416521,41.126193,1289.87
+-113.415813,41.136235,1294.53
+-113.411135,41.1494,1289.87
+-113.410963,41.149881,1292.2
+-113.410556,41.169966,1294.53
+-113.40854,41.194621,1294.53
+-113.408496,41.194621,1292.2
+-113.408196,41.195533,1292.2
+-113.401008,41.221421,1285.23
+-113.398455,41.24273,1282.9
+-113.363628,41.260915,1285.23
+-113.363715,41.260936,1285.23
+-113.363693,41.260915,1282.9
+-113.36365,41.260925,1287.56
+-113.363693,41.260893,1285.23
+-113.363693,41.260915,1287.55
+-113.363113,41.26172,1287.55
+-113.338008,41.266086,1287.55
+-113.347878,41.282533,1285.23
+-113.347556,41.284625,1282.9
+-113.331226,41.283166,1282.9
+-113.301165,41.279915,1285.23
+-113.258378,41.275248,1282.9
+-113.219218,41.271021,1285.23
+-113.177676,41.266505,1282.9
+-113.141133,41.261493,1285.23
+-113.100106,41.255636,1289.87
+-113.054573,41.249166,1280.58
+-113.000521,41.241473,1285.23
+-112.943636,41.233373,1280.58
+-112.905206,41.227891,1280.58
+-112.884886,41.219598,1282.9
+-112.897481,41.159763,1402.36
+-112.914025,41.074296,1367.01
+-112.920741,41.02664,1359.96
+-112.921235,41.023581,1357.62
+-112.913596,40.894815,1324.83
+-112.89583,40.822663,1409.45
+-112.719661,40.752315,1275.94
+-112.528538,40.708711,1280.58</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Jeff Jensen</name>
+      <Placemark>
+        <name>Jeff Jensen</name>
+        <visibility>true</visibility>
+        <description>Cool, congrats!</description>
+        <TimeStamp>
+          <when>2016-11-01T01:33:45Z</when>
+        </TimeStamp>
+        <styleUrl>#style_2862684</styleUrl>
+        <ExtendedData>
+          <Data name="Id">
+            <value>84557248</value>
+          </Data>
+          <Data name="Time UTC">
+            <value>11/1/2016 1:33:45 AM</value>
+          </Data>
+          <Data name="Time">
+            <value>10/31/2016 7:33:45 PM</value>
+          </Data>
+          <Data name="Name">
+            <value>OGTV 1 (2862684)</value>
+          </Data>
+          <Data name="Map Display Name">
+            <value>OGTV 1</value>
+          </Data>
+          <Data name="Device Type">
+            <value />
+          </Data>
+          <Data name="IMEI">
+            <value>300434060148160</value>
+          </Data>
+          <Data name="Incident Id">
+            <value />
+          </Data>
+          <Data name="Latitude">
+            <value>41.221486</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-113.400986</value>
+          </Data>
+          <Data name="Elevation">
+            <value>1289.87 m from MSL</value>
+          </Data>
+          <Data name="Velocity">
+            <value>0 km/h</value>
+          </Data>
+          <Data name="Course">
+            <value>0 ° True</value>
+          </Data>
+          <Data name="Valid GPS Fix">
+            <value>False</value>
+          </Data>
+          <Data name="In Emergency">
+            <value>False</value>
+          </Data>
+          <Data name="Text">
+            <value>Cool, congrats!</value>
+          </Data>
+          <Data name="Event">
+            <value>Text message received.</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <extrude>false</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>-113.400986,41.221486,1289.87</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jeff Jensen</name>
+        <visibility>true</visibility>
+        <description>Jeff Jensen's track log</description>
+        <styleUrl>#linestyle_2862684</styleUrl>
+        <LineString>
+          <tessellate>true</tessellate>
+          <coordinates>-113.400986,41.221486,1289.87</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
